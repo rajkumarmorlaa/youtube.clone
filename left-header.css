@@ -1,0 +1,70 @@
+.left-side-page{
+    border-right: solid 1px gray;
+    position: fixed;
+    bottom: 0px;
+    top: 66px;
+    left: 0;
+    max-width: 90px;
+    min-width: none;
+    flex: 1;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-around;
+    z-index: 20;
+} 
+
+.home-button{
+    display: block;
+    height: 60px;
+
+}
+.home:active{
+    height: 52px;
+}
+
+.shorts-button{
+    display: block;
+    height: 60px;
+}
+
+.shorts:active{
+   height: 53px;
+}
+
+.sub-button{
+    display: block;
+    height: 60px;
+}
+
+.sub:active{
+    height: 53px;
+}
+
+
+.home,.shorts,.sub{
+    height: 55px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+
+.home-text ,.shorts-text,.sub-text,.you-text{
+
+    margin-top: -90px;
+
+}
+
+
+
+.sub{
+    height: 50px;
+    margin-top: 5px;
+}
+
+.sub-text{
+            
+            font-size: 14px;
+}

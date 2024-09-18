@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+}
+.header{
+    border-bottom:solid 1px grey;
+    padding: 0.5em;
+    display: flex;
+    flex: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 10;
+}
+.top-header{
+    display: flex;
+    flex: 1;
+}
+
+
+
+.left-side-header{
+    width: 180px;
+    align-items: center; 
+    display: flex;
+  
+}
+.hambargur{
+    height: 1.5em;
+    margin-left: 1em;
+    display: block;
+}
+.youtube{
+    height: 1.1625em;
+    margin-left: 0.5em;
+}
+.hambargur{
+    cursor: pointer;
+    width: 100%;
+    display: block;
+}
+
+.ham{
+    
+    display: flex;
+    
+}
+
+
+
+
+.middle-side-header{
+    display: flex;
+    flex:1;
+    align-items: center;
+    
+    padding: 0.188em;
+    justify-content: center;
+}
+.search-bar{
+   
+    height: 2.188em;
+    margin-left: -40px;
+    border-radius: 0.625em 0em 0em 0.625em;
+    border: solid 0.063em grey;
+    border-right: transparent;
+    flex: 1;
+    max-width: 350px;
+    min-width: 80px;
+    width: 100%;
+    padding-left:-0.938em ;
+}
+.search{
+    height:1.25em ;
+    padding: 0.313em;
+}
+.search-button{
+    height: 2.450em;
+    width: 3.125em;
+    border-radius: 0em 0.625em 0.625em 0em;
+    border: solid 0.063em grey;
+    border-left: transparent;
+}
+.voice{
+    height: 1.438em;
+    width: 1.438em;
+     border-radius: 50%;
+    padding-left: 0.063em;
+    padding-top: 0.125em;
+}
+.voice-button{
+    margin-left: 0.625em;
+    border-radius: 50%;
+    height: 2.5em;
+    width: 2.5em;
+    border:solid 0.063em grey
+   
+}
+.voice-button,.search-button:hover{
+    cursor: pointer;
+   
+}
+.voice-button:active{
+    background-color: rgb(229, 229, 229);
+}
+.search-button:active{
+    background-color: rgb(229, 229, 229);  
+}
+
+
+
+
+.right-side-header{
+    
+    align-items: center;
+    display: flex;
+    width: 12.5em;
+    height: 3.125em;
+    
+}
+.create-side{
+    display: flex;
+    width: 3.125em;
+    padding-right: 1.25em;
+}
+
+.create{
+    height: 3.125em;
+   
+    margin-left: 0.625em;
+    margin-right: 0em;
+} 
+.create:hover{
+    cursor: pointer;
+   
+}
+.create:active{
+    height: 3em;
+    cursor:grab;
+}
+.bell-side{
+    display: flex;
+    position: relative;
+    height: 3.125em;
+    width: 3.125em;
+    
+}
+
+.bell{
+    height: 1.875em;
+    margin-top: 0.563em;
+    margin-left: 0.625em;
+}
+.bell-top{
+    font-size: 0.813em;
+    margin-bottom: 0.25em;
+     margin-left: 0.125em;
+   height: 1.125em;
+   width: 1.125em;
+   padding-left: 0.125em;
+   padding-top: 0.125em;
+   border-radius: 50%;
+}
+
+
+.bell-notification{
+    position: absolute;
+   top: -0.5em;
+   left: 1.438em;
+   
+}
+
+.bell-side:hover{
+    cursor: pointer;
+   
+}
+.bell:active{
+    height: 1.813em;
+    cursor:grab;
+}
+.pic-header{
+    height: 2.5em;
+    width: 2.5em;
+    border-radius:50%;
+    object-fit: cover;
+    margin-left: 1.25em;
+}
+.pic-header:hover{
+    cursor: pointer;
+}
+
+
+@media ( max-width: 600px)
+{ .header{
+  grid-template-columns: 1fr;
+}
+}
+
+
+
+@media ( max-width: 1451px)
+{ .header{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+}
+
+@media ( max-width: 1115px)
+{ .header{
+  grid-template-columns: 1fr 1fr;
+}
+
+}
+
+@media ( max-width: 771px)
+{ .header{
+  grid-template-columns: 1fr;
+}
+
+} 
